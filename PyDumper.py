@@ -1,6 +1,5 @@
 """
-Author : Daniel Fligel
-Github : 
+Github : https://github.com/Namx45
 """
 
 
