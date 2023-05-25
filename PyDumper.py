@@ -23,7 +23,7 @@ class file:
         user_input = input("Enter file name (Or path; path can be in quotes)\n")
         try:
             if ("\\" not in user_input):
-                 self.full_path = ospath.getcwd() + user_input
+                 self.full_path = os.getcwd() + user_input
             elif ("\"" in user_input):
                 self.full_path = user_input.split("\"")[1]
                 self.full_path = user_input.split("/")[1]
